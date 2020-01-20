@@ -1,0 +1,7 @@
+<h1>Here are all the kittens:</h1>
+<% @kittens.each do |k| %>
+<div class='kitten'>
+    <%= k.name %>
+    <%= link_to "Put your kitty to sleep", kitten_path(k), method: :delete %>
+</div>
+<% end %>

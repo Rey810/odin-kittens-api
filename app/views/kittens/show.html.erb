@@ -1,0 +1,7 @@
+<% flash.each do |type, msg| %>
+    <%= msg %>
+<% end %>
+
+Your kitten is called <%= @kitten.name %>
+
+<%= link_to "Put your kitty to sleep", kitten_path, method: :delete %>
