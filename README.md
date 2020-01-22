@@ -28,8 +28,9 @@ Once the installation and seeding is complete, use `gem rest-client` to test the
 >> require 'rest-client'
 >> response = RestClient.get("http://localhost:3000/kittens", accept: :json)
 => <RestClient::Response 200 "[{\"id\":1,\"n...">
->> response = RestClient.get("http://localhost:3000/kittens/1", accept: :json)
-=> <RestClient::Response 200 "[{\"id\":1,\"n...">
+>> response = RestClient.get("http://localhost:3000/kittens/12", accept: :json)
+=> <RestClient::Response 200 "[{\"id\":12,\"n...">
 >> puts response.body
+{"id":12,"name":"Garfield","age":null,"cuteness":"6","softness":"10","created_at":"2020-01-22T04:58:17.326Z","updated_at":"2020-01-22T04:58:17.326Z"}
 ```
 
