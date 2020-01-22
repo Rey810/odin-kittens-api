@@ -2,7 +2,7 @@
 
 Kittens API is a simple data-producing RESTful API. This project is a part of [the Odin Project's](https://www.theodinproject.com/courses/ruby-on-rails/lessons/apis) curriculum.
 
-##Getting started
+## Getting started
 
 To get started with the app, clone the repo and then install the needed gems:
 
@@ -18,7 +18,7 @@ If you want to load sample data, use seeds:
 
 You are ready to run the app in a local server:
 
-##Testing Responses
+## Testing Responses
 
 Once the installation and seeding is complete, use `gem rest-client` to test the response. For example: 
 
