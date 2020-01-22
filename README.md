@@ -22,9 +22,8 @@ You are ready to run the app in a local server:
 
 Once the installation and seeding is complete, use `gem rest-client` to test the response. For example: 
 
-`$ rails server`
-
-``` $irb
+```$ rails server
+$irb
 >> require 'rest-client'
 >> response = RestClient.get("http://localhost:3000/kittens", accept: :json)
 => <RestClient::Response 200 "[{\"id\":1,\"n...">
