@@ -2,6 +2,13 @@
 
 Kittens API is a simple data-producing RESTful API. This project is a part of [the Odin Project's](https://www.theodinproject.com/courses/ruby-on-rails/lessons/apis) curriculum.
 
+## Goals
+1. Simple Rails app where kittens can be created
+2. Set up app to be a data-producing API
+
+## Skills Used/Gained
+1. Practice using MVC architecture
+
 ## Getting started
 
 To get started with the app, clone the repo and then install the needed gems:
